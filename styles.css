@@ -6,11 +6,18 @@
 #best {
     color: hotpink;
     font-style: bold;
+    float: right;
+    font-size: 200%;
+    font-family: algerian, courier;
+    line-height: 50%;
 }
 
 img.intro {
-    width: 50%;
+    
     font-style: italic;
+    width: 30%;
+    float: initial;
+    background-color: yellow;
   }
 
   p.author {
@@ -22,7 +29,7 @@ img.intro {
   h2.intro{
     font-style: bold;
     font-size: 24px;
-    color: blue;
+    color: orange;
   }
 
   p.intro{
@@ -38,3 +45,15 @@ img.intro {
     color: green;
 
   }
+
+  .column {
+    width:300px;
+    float:center;
+  }
+
+
+.sidebar { 
+    width: 500px;
+    float: right;
+    background-color yellow;
+}
